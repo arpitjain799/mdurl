@@ -18,11 +18,11 @@ repos:
   hooks:
   - id: isort
 - repo: https://github.com/psf/black
-  rev: b0d1fba7ac3be53c71fb0d3211d911e629f8aecb  # frozen: 23.1.0
+  rev: bf7a16254ec96b084a6caf3d435ec18f0f245cc7  # frozen: 23.3.0
   hooks:
   - id: black
 - repo: https://github.com/PyCQA/docformatter
-  rev: 11d9a03865ae1f859d56517daec72e4f9f2401f0  # frozen: v1.5.1
+  rev: 403478c1e23468aff9889975b35a27d2c115a2e8  # frozen: v1.6.3
   hooks:
   - id: docformatter
 - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -44,7 +44,7 @@ repos:
     - flake8-builtins
     - flake8-comprehensions
 - repo: https://github.com/pre-commit/mirrors-mypy
-  rev: b176ead5d5b92b1d4e651c118017f8fd32de424a  # frozen: v1.1.1
+  rev: b84480de6124681d551749528ab4b42c2269df8c  # frozen: v1.2.0
   hooks:
   - id: mypy
     args: ["--scripts-are-modules"]
